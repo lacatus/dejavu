@@ -45,7 +45,7 @@ class DataRecognizer(BaseRecognizer):
     def __init__(self, dejavu):
         super(DataRecognizer, self).__init__(dejavu)
         
-    def recognize(self, frames, fs=fingerprint.DEFAULT_FS):
+    def recognize_data(self, frames, fs=fingerprint.DEFAULT_FS):
         
         self.Fs = fs
         t = time.time()
