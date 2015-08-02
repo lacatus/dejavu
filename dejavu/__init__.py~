@@ -168,9 +168,11 @@ class Dejavu(object):
         
     def clear_data(self):
     
-        """Clear the database of all contents"""
+        """
+            Clear the database of all contents
+        """
         
-        Database.empty()
+        self.db_cls.empty()
 
 
 def _fingerprint_worker(filename, limit=None, song_name=None):
