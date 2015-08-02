@@ -72,6 +72,8 @@ def read(filename, limit=None):
         channels = []
         for chn in audiofile:
             channels.append(chn)
+    print fs, channels[0].shape
+    assert False
     return channels, fs, unique_hash(filename)
 
 
