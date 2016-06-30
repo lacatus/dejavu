@@ -12,6 +12,12 @@ So far Dejavu has only been tested on Unix systems.
 
 For installing `ffmpeg` on Mac OS X, I highly recommend [this post](http://jungels.net/articles/ffmpeg-howto.html).
 
+## UBUNTU
+
+Install the dependencies:
+
+    sudo apt-get install python-pyaudio libportaudio-dev
+
 ## Fedora 20+
 
 ### Dependency installation on Fedora 20+
