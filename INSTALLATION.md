@@ -16,7 +16,7 @@ For installing `ffmpeg` on Mac OS X, I highly recommend [this post](http://junge
 
 Install the dependencies:
 
-    sudo apt-get install python-pyaudio libportaudio-dev mysql-client
+    sudo apt-get install python-pyaudio libportaudio-dev mysql-client mysql-server
     sudo pip install numpy scipy matpotlib MySQLdb
 
 ## Fedora 20+
